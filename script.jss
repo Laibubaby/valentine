@@ -40,4 +40,5 @@ function createHeart() {
     heart.style.animationDuration = Math.random() * 2 + 3 + 's';
     document.body.appendChild(heart);
     setTimeout(() => heart.remove(), 5000);
+
 }
